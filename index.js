@@ -184,5 +184,5 @@ app.delete("/deleteAll_category", (req, res) => {
 // Start the server
 app.listen(PORT, () => {
     connectionDB();
-    console.log(`Server is running on port ${port}`);
+    console.log(`Server is running on port ${PORT}`);
 });
