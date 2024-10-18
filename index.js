@@ -3,7 +3,7 @@ const Truck = require("./modules/schema");
 const category = require("./modules/category");
 const connectionDB = require('./database/conecction');
 const app = express();
-const port = 4000;
+const PORT = process.env.PORT || 3000;
 const cors= require("cors")
 
 
@@ -182,7 +182,7 @@ app.delete("/deleteAll_category", (req, res) => {
 
 
 // Start the server
-app.listen(port, () => {
+app.listen(PORT, () => {
     connectionDB();
     console.log(`Server is running on port ${port}`);
 });
