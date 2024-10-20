@@ -33,6 +33,7 @@ app.post('/addTruck', (req, res) => {
         LoactionFR: getData.LoactionFR,
         LoactionEN: getData.LoactionEN,
         image: getData.image,
+        stars:getData.stars
     });
 
     newPost.save()

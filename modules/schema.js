@@ -21,6 +21,7 @@ const postSchema = new Schema({
   LoactionFR: String,
   LoactionEN: String,
   image: String,
+  stars:Number,
 });
 
 const Truck = mongoose.model('Truck', postSchema);
