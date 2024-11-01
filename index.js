@@ -17,21 +17,13 @@ app.post('/addTruck', (req, res) => {
 
     const newPost = new Truck({
         titleAR: getData.titleAR,
-        titleFR: getData.titleFR,
-        titleEN: getData.titleEN,
         nameAR:getData.nameAR,
-        nameFR:getData.nameFR,
-        nameEN:getData.nameEN,
         phone:getData.phone,
         type: getData.type,
         DescriptionAR: getData.DescriptionAR,
-        DescriptionFR: getData.DescriptionFR,
-        DescriptionEN: getData.DescriptionEN,
         hidden: getData.hidden,
         Price: getData.Price,
         LoactionAR: getData.LoactionAR,
-        LoactionFR: getData.LoactionFR,
-        LoactionEN: getData.LoactionEN,
         image: getData.image,
         stars:getData.stars
     });
