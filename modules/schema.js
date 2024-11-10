@@ -11,6 +11,7 @@ const postSchema = new Schema({
   date: { type: Date, default: Date.now },
   hidden: { type: Boolean, default: false }, 
   Price: Number,
+  Price2: Number,
   LoactionAR: String, 
   image: String,
   stars:Number,

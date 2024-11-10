@@ -23,6 +23,7 @@ app.post('/addTruck', (req, res) => {
         DescriptionAR: getData.DescriptionAR,
         hidden: getData.hidden,
         Price: getData.Price,
+        Price2: getData.Price2,
         LoactionAR: getData.LoactionAR,
         image: getData.image,
         stars:getData.stars
